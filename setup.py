@@ -11,7 +11,9 @@ setup(
         'uvicorn',
         'SQLAlchemy',
         'pytest',
-        'requests'
+        'requests',
+        'pydantic',
+        'psycopg2'
     ],
     scripts=['app/main.py']
 )
